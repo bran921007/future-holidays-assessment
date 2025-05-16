@@ -1,5 +1,5 @@
-{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
-{{ 'component-image-with-text.js' | asset_url | script_tag }}
+{{ 'component-image-with-text.min.css' | asset_url | stylesheet_tag }}
+{{ 'component-image-with-text.min.js' | asset_url | script_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -52,7 +52,6 @@
                   muted: section.settings.video_muted,
                   playsinline: true,
                   class: 'lazy-video',
-                  poster: '',
                   style: 'width: 100%;
                     height: 100%;
                     object-fit: cover;'
