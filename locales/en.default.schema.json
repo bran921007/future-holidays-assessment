@@ -2971,9 +2971,6 @@
         "cover_image": {
           "label": "Cover image"
         },
-        "video_poster": {
-          "label": "Poster video"
-        },
         "video": {
           "label": "Video"
         },
