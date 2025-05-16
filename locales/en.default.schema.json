@@ -2971,9 +2971,28 @@
         "cover_image": {
           "label": "Cover image"
         },
+        "video_poster": {
+          "label": "Poster video"
+        },
         "video": {
           "label": "Video"
         },
+        "autoplay_video": {
+          "label": "Autoplay video"
+        },
+        "video_loop": {
+          "label": "Loop video"
+        },
+        "video_controls": {
+          "label": "Show video controls"
+        },
+        "video_muted": {
+          "label": "Mute audio"
+        },
+        "show_video_poster": {
+          "label": "Show poster video"
+        },
+
         "enable_video_looping": {
           "label": "Loop video"
         },
