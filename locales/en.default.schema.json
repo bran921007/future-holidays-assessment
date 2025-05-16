@@ -1320,14 +1320,17 @@
     "image-with-text": {
       "name": "Image with text",
       "settings": {
-      "header": {
-      "content": "Content"
-      },
-      "header_colors": {
-      "content": "Colors" 
-      },
+        "media_type": {
+          "label": "Media Type"
+        },
         "image": {
           "label": "Image"
+        },
+        "object_position": {
+          "label": "Video position",
+          "option_1": "Left",
+          "option_2": "Center",
+          "option_3": "Right",
         },
         "height": {
           "options__1": {
@@ -1342,7 +1345,7 @@
           "options__4": {
             "label": "Large"
           },
-          "label": "Height"
+          "label": "Image height"
         },
         "desktop_image_width": {
           "options__1": {
@@ -1354,7 +1357,8 @@
           "options__3": {
             "label": "Large"
           },
-          "label": "Width"
+          "label": "Desktop image width",
+          "info": "Image is automatically optimized for mobile."
         },
         "layout": {
           "options__1": {
@@ -1363,7 +1367,8 @@
           "options__2": {
             "label": "Image second"
           },
-          "label": "Placement"
+          "label": "Desktop image placement",
+          "info": "Image first is the default mobile layout."
         },
         "desktop_content_alignment": {
           "options__1": {
@@ -2969,6 +2974,22 @@
         "video": {
           "label": "Video"
         },
+        "autoplay_video": {
+          "label": "Autoplay video"
+        },
+        "video_loop": {
+          "label": "Loop video"
+        },
+        "video_controls": {
+          "label": "Show video controls"
+        },
+        "video_muted": {
+          "label": "Mute audio"
+        },
+        "show_video_poster": {
+          "label": "Show poster video"
+        },
+
         "enable_video_looping": {
           "label": "Loop video"
         },
